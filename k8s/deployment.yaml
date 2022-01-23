@@ -71,7 +71,7 @@ spec:
   selector:
     app: web
   ports:
-  - port: 80
+  - port: 8093
     targetPort: 5000
     nodePort: 30000
   type: LoadBalancer
